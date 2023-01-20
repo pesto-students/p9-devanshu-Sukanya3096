@@ -145,3 +145,5 @@ The last step in your web journey is the database, used by https://www.holberton
 When you are in https://www.holbertonschool.com and you want to enroll, for example, you will be redirected to an application server where you will store your user information in its database.
 
 ![This is a image  of DNS look up](assets/images/database.png)
+
+---

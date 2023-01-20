@@ -8,7 +8,7 @@ So, now, if we type an url say https://www.holbertonschool.com, in the search ba
 
 #### Starting the search
 
-<img src="https://github.com/pesto-students/p9-devanshu-Sukanya3096/blob/develop/Week-1/assets/images/1598227973585.png" alt="This is a image of searching an url in search bar">
+![This is an image of url being searched in search bar](https://user-images.githubusercontent.com/49310523/213633929-690308d9-3689-49fb-9775-e10840c50d21.png)
 
 **URL** stands for $\color{gray}{Uniform\ Resource\ Locator}$ and as its name says, it contains the location of the resources you want to access, in other words, is an address that points to the place you want to visit. Looking at the image above, the first part you see is '_https_' that indicates the browser which protocol (set of rules) should be used to establish the communication on the network. It can be FTP, HTTP, HTTPS, etc.
 
@@ -36,7 +36,7 @@ And the bus gets to the third stop, where the resolver requests to the .com TLD 
 
 After all of this trip, the bus returns to the starting point, then the resolver responds to the browser with the IP address of the domain requested at the beginning. Besides this, the resolver will store the collected information into its local cache and it will not have to repeat the entire process if the same query comes in the future, it can now provide the Holberton School's IP address directly.
 
-![This is a image  of DNS look up](assets/images/DNS_Lookup.png)
+![Image of DNS_Lookup](https://user-images.githubusercontent.com/49310523/213636238-a8d465f7-19ca-4e62-ba11-5626c007abf7.png)
 
 #### Getting to our destination - The TCP/IP connection
 
@@ -50,7 +50,7 @@ In TCP/IP, the connection is built between two hosts (the client and the server)
 
 3. After this, the first computer receives the message and acknowledges it by sending an **ACK message**, that is received by the second computer and the TCP socket connection is established.
 
-![This is a image  of DNS look up](assets/images/tcp.png)
+![Image of tcp/ip connection](https://user-images.githubusercontent.com/49310523/213636322-783669a6-31c4-415f-9069-009a3337db99.png)
 
 #### Connection Denied? - The firewall
 
@@ -62,7 +62,7 @@ As mentioned before _HTTPS_ stands for _HyperText Transfer Protocol_ Secure, and
 
 In the PKI, two cryptographic keys are used: a public key and a private key. These pair of keys is asymmetrical which ensures only the owners of the matching keys can un-encrypt the sent and/or received information. For being able to get this done, Holberton School's website manager had to issue an SSL certificate from a trusted certificate authority and that is the reason why you can see a lock icon on the search bar of the browser.
 
-![This is a image  of DNS look up](assets/images/firewall.png)
+![Image of firewall](https://user-images.githubusercontent.com/49310523/213636428-656f4ebf-f9ec-4869-b9c3-e4975d439146.png)
 
 #### Web content is received
 
@@ -80,7 +80,7 @@ So we have HTML content at the beginning which goes through a process called tok
 
 Now we know, html tag starts at the top and then the head tag starts before the html ends so we can figure out that the head is inside html and create a tree out of it. Thus we then get something called a parse tree which eventually becomes a DOM tree as shown in the image below:
 
-![This is a image  of DNS look up](assets/images/parsing.webp)
+![parsing image](https://user-images.githubusercontent.com/49310523/213637774-8e502426-64f1-4905-82f0-f4501481004c.jpg)
 
 DOM tree is what we access when we do document.getElementById or document.querySelector in JavaScript.
 
@@ -88,7 +88,7 @@ Just like HTML, CSS goes through a similar process where we have the CSS text an
 
 This is what a CSS Object Model looks like:
 
-![This is a image  of DNS look up](assets/images/css-parsing.webp)
+![css-parsing image](https://user-images.githubusercontent.com/49310523/213637864-70624403-88d5-433a-b0f4-94b42fe6a553.jpg)
 
 #### Rendering of Web Page
 
@@ -126,7 +126,7 @@ As mentioned previously, websites are stored on servers. You already know that o
 
 Well, it would be a **Single Point of Failure (SPOF)**, because it would only need a failure or attack on the server to cause the whole site crash. This scenario has led to the implementation of multiple servers increasing the scalability of the websites, therefore, improving its performance. With that, the use of load-balancers is absolutely necessary. A load-balancer is a software program that distributes network requests between the different servers associated with it, based on a load-balancing algorithm like the most common, the round-robin, that distributes the incoming load alternating between all the servers evenly and consequentially.
 
-![This is a image  of DNS look up](assets/images/load-balancer.gif)
+![load-balancer image](https://user-images.githubusercontent.com/49310523/213636509-e45c43f4-2c1c-4a8d-be57-ff34231eeead.gif)
 
 #### Where is the website stored? - Web server & Application Server
 
@@ -136,7 +136,7 @@ Holberton School's website, like any other website, could not exist without its 
 
 So, this is made possible by having one or more application servers. An **application server** generates dynamic content, by operating applications, communicating with databases, and managing your user information, among other things. All of this, providing their business logic to application programs through several protocols.
 
-![This is a image  of DNS look up](assets/images/server.png)
+![server image](https://user-images.githubusercontent.com/49310523/213636994-370a4b30-4dad-455c-925b-356f6f3b5c5a.png)
 
 #### How is the data managed? - The Database
 
@@ -144,6 +144,6 @@ The last step in your web journey is the database, used by https://www.holberton
 
 When you are in https://www.holbertonschool.com and you want to enroll, for example, you will be redirected to an application server where you will store your user information in its database.
 
-![This is a image  of DNS look up](assets/images/database.png)
+![This is an image of how database is managed](https://user-images.githubusercontent.com/49310523/213635903-4ffa4053-8898-46b0-99a3-2f5edc5e6595.png)
 
 ---

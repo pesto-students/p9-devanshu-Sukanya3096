@@ -24,11 +24,11 @@ The second part is the **hostname** reached through $\color{gray}{Domain\ Name\ 
 
 Well, once you hit Enter, the browser brakes down the URL in pieces as shown above, and looks for the hostname in its cache. If the browser does not find the hostname in there, then it asks outside. And the DNS comes into action, it takes the human-readable hostname and translates it to its corresponding computer-friendly $\color{#2674f0}{IP\ address}$ to serve the requested content.
 
-A breve but needed parenthesis, the IP address is a suite of four numbers each one in a range from 0 to 255, separated by dots. Probably this makes you wonder if it is possible to use an IP address directly instead of a hostname, and the answer is yes you can do it, but the reason why this is not common is that as humans we remember better words than numbers.
+The IP address is a suite of four numbers each one in a range from 0 to 255, separated by dots. Probably this makes you wonder if it is possible to use an IP address directly instead of a hostname, and the answer is yes you can do it, but the reason why this is not common is that as humans we remember better words than numbers.
 
 Continuing the DNS process, it is also known as a DNS request, where your computer is the DNS client demanding information to a **DNS server**. You can think of this process as a bus trip and the first stop, that can be the only one or not, is your $\color{gray}{Internet\ Service\ Provider}$ (ISP) DNS server to check if it can respond properly to the request. This DNS server will search into its local cache and if it handles the request, the DNS process ends here returning the IP address for Holberton School's website allowing the browser to serve it up to you. However, if the resolver cannot handle the request, then a recursive query will start until the IP address is found.
 
-Remember the URL components, specifically of the hostname? There is a server that stores information for each one of them. Is important to say that the recursive query begins at the bottom of https://www.holbertonschool.com.
+Remember the URL components, specifically of the hostname? There is a server that stores information for each one of them.
 
 So, following the bus trip, the second stop is a DNS root nameserver. The root domain does not have a formal name in the DNS hierarchy and its label is an empty string, which is represented by an implicit dot (.) that is at the end of every URL. The resolver requests the DNS root nameserver and it responds with the IP address of a TLD DNS Server, in this case 'com', that stores the information for its domains.
 
@@ -40,7 +40,7 @@ After all of this trip, the bus returns to the starting point, then the resolver
 
 #### Getting to our destination - The TCP/IP connection
 
-Having the Holberton School's IP address is time to initiate the connection with it, this is done by following the **_HTTPS_** protocol you indicated in the URL. This protocol is the secure version of the $\color{gray}{Hypertext\ Transfer\ Protocol}$ (HTTP) and it is part of a larger protocol suite called $\color{gray}{Transmission\ Control\ Protocol/Internet\ Protocol}$ (TCP/IP).
+Having the Holberton School's IP address it's time to initiate the connection with it, this is done by following the **_HTTPS_** protocol you indicated in the URL. This protocol is the secure version of the $\color{gray}{Hypertext\ Transfer\ Protocol}$ (HTTP) and it is part of a larger protocol suite called $\color{gray}{Transmission\ Control\ Protocol/Internet\ Protocol}$ (TCP/IP).
 
 In TCP/IP, the connection is built between two hosts (the client and the server) using a process called **TCP 3-way handshake**. The process can be described in brief:
 

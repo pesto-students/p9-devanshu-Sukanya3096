@@ -1,14 +1,3 @@
-<style>
-H2{color:SkyBlue !important;}
-/* img:{
-    display:block;
-    float:none;
-    margin: 0 auto;
-    width:800px;
-    height: 800px
-} */
-</style>
-
 ## When a user enters an URL in the browser, how does the browser fetch the desired result ?
 
 In order to get into the matter and discover what is happening, it is important to understand the **_client-server model_**.

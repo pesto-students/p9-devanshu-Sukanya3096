@@ -8,7 +8,7 @@ So, now, if we type an url say https://www.holbertonschool.com, in the search ba
 
 #### Starting the search
 
-![This is a image of searching an url in search bar](/Week-1/assets/images//1598227973585.png)
+<img src="assets/images/1598227973585.png" alt="This is a image of searching an url in search bar">
 
 **URL** stands for $\color{gray}{Uniform\ Resource\ Locator}$ and as its name says, it contains the location of the resources you want to access, in other words, is an address that points to the place you want to visit. Looking at the image above, the first part you see is '_https_' that indicates the browser which protocol (set of rules) should be used to establish the communication on the network. It can be FTP, HTTP, HTTPS, etc.
 

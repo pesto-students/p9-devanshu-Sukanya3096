@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+.mainContainer {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.displayContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mainSidebar {
+  background-color: #e6e3e3;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainSidebar i {
+  margin: 40px 0;
+}
+.mainSidebar i:last-child {
+  margin: 0;
+}
+
+.section_displaySong {
+  background-color: #232323;
+  width: 100%;
+  height: 250px;
+  display: flex;
+}
+
+.section_displaySong > sidebar,
+main {
+  padding: 20px;
+}
+
+.section_displaySong h2 {
+  color: white;
+  font-size: larger;
+}
+
+.main_songInfo {
+  margin-top: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_songInfo > h6:last-child {
+  margin-top: 3px;
+}
+
+.main_songInfo > div {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_songInfo > div > span {
+  display: flex;
+  justify-content: center;
+}
+
+.main_songInfo > div > span h6 {
+  align-self: center;
+  padding-left: 3px;
+}
+
+.section_songList {
+  background-color: white;
+  width: 100%;
+  height: calc(100vh - 350px);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #166593;
+  width: 100%;
+  height: 12vh;
+}
+
+.section_currentSongContainer {
+  display: flex;
+}
+
+.section_currentSongContainer > img {
+  padding: 8px;
+}
+.section_currentSongContainer > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+.section_currentSongContainer > div > h6:last-child {
+  margin-top: -2rem;
+}
+.section_currentSongControls {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+}
+.section_currentSongControls > span {
+  padding: 60px;
+}
+
+.section_currentSongControls > span > i {
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  padding-top: 10px;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #e6e3e3;
+}
+.section_songList > div {
+  padding: 10px;
+}
+button {
+  background-color: Transparent;
+  cursor: pointer;
+  height: 38px;
+  padding: 5px;
+  border: 2px solid black;
+  float: none;
+  text-align: center;
+  color: blue;
+}

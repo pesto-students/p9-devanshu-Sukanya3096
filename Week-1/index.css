@@ -6,6 +6,7 @@
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
+  overflow: hidden;
 }
 
 .mainContainer {
@@ -22,16 +23,20 @@ body {
 
 .mainSidebar {
   background-color: #e6e3e3;
-  width: 20px;
+  width: 30px;
   display: flex;
   flex-direction: column;
+}
+
+.mainSidebar > div {
+  padding-left: 5px;
 }
 
 .mainSidebar i {
   margin: 40px 0;
 }
 .mainSidebar i:last-child {
-  margin: 0;
+  margin: 20px 0px 0px 0px;
 }
 
 .section_displaySong {

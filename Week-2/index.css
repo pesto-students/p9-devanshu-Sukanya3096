@@ -1,0 +1,132 @@
+body {
+  font-family: "Hind Siliguri", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto Flex", sans-serif;
+  color: #eee;
+  margin: 0;
+  background-color: #f2825a;
+}
+
+header {
+  align-self: center;
+  text-align: center;
+  background: #f28273
+    url(https://themes.googleusercontent.com/image?id=cv9I8ENrXKLcyUn5vUUQg7E6BKlHmpvCj3ZWzIxS4dFY686OFUWqf0gChAoj9zmPK4JQtHoONC4J)
+    no-repeat scroll top center;
+  background-size: cover;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+article {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 120px 10px;
+  margin: 5px;
+}
+
+section h3 {
+  text-align: center;
+}
+
+article section {
+  width: 500px;
+  padding-bottom: 30px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0a2321;
+  color: white;
+  text-align: center;
+}
+
+.copyright-text {
+  padding: 20px;
+  text-align: center;
+  color: #eee;
+}
+
+.copyright-text a {
+  color: #eee;
+  text-decoration: none;
+}
+
+.basic-card {
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.basic-card .card-content {
+  padding: 10px 20px;
+}
+
+.basic-card .card-content .imageContainer {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.basic-card .card-content .imageContainer img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.basic-card .card-content .card-title {
+  text-align: center;
+}
+
+.basic-card-dark {
+  background-image: linear-gradient(to bottom right, #252525, #4a4a4a);
+}
+
+.basic-card .card-link {
+  padding: 25px;
+}
+
+.basic-card .card-link a {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.basic-card .card-link a:after {
+  top: 30px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  width: 0;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.basic-card .card-link a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.basic-card-dark .card-title,
+.basic-card-dark .card-link a {
+  color: #eee;
+}
+
+.basic-card-dark .card-text {
+  color: #dcdcdcdd;
+}
+
+.basic-card-dark .card-link {
+  border-top: 1px solid #636363;
+}
+
+.basic-card-dark .card-link a:after {
+  background: #eee;
+}

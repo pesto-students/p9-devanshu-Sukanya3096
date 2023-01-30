@@ -10,6 +10,7 @@ body {
 header {
   align-self: center;
   text-align: center;
+  z-index: 1;
   background: #f28273
     url(https://themes.googleusercontent.com/image?id=cv9I8ENrXKLcyUn5vUUQg7E6BKlHmpvCj3ZWzIxS4dFY686OFUWqf0gChAoj9zmPK4JQtHoONC4J)
     no-repeat scroll top center;
@@ -129,4 +130,52 @@ footer {
 
 .basic-card-dark .card-link a:after {
   background: #eee;
+}
+
+form {
+  width: 340px;
+  height: 400px;
+  background: #eee;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 0 auto;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+form h2 {
+  margin: 10px 0;
+  padding-bottom: 10px;
+  width: 180px;
+  color: #78788c;
+  border-bottom: 3px solid #78788c;
+}
+form input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  border: 0;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+}
+form input:focus {
+  border-bottom: 2px solid #78788c;
+}
+
+button {
+  float: right;
+  padding: 8px 12px;
+  margin: 25px 0 0;
+  border: 2px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+button:hover {
+  background: #78788c;
+  color: #fff;
 }

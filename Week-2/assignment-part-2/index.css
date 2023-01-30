@@ -29,7 +29,7 @@ main#main .topleft {
   left: 0px;
   background: red;
   transform-origin: top left;
-  transition: transform 1000ms ease;
+  transition: transform 1000ms ease-in-out;
 }
 
 main#main .topright {
@@ -41,7 +41,7 @@ main#main .topright {
   left: 100px;
   background: yellow;
   transform-origin: top right;
-  transition: transform 1000ms ease;
+  transition: transform 1000ms ease-in-out;
 }
 
 main#main .bottomleft {
@@ -53,7 +53,7 @@ main#main .bottomleft {
   top: 100px;
   background: blue;
   transform-origin: left bottom;
-  transition: transform 1000ms ease;
+  transition: transform 1000ms ease-in-out;
 }
 
 main#main .bottomright {
